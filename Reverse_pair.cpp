@@ -9,7 +9,7 @@ int merge(vector<int>&nums,int low,int mid,int high){
    int cnt = 0;
    int j = mid+1;
    for(int i = low;i<=mid;i++){
-     while(j<=high and nums[i] > 2 * nums[j]){
+     while(j<=high and nums[i] > 2LL * nums[j]){
        j++;
      }
      cnt += (j-(mid+1));
